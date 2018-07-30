@@ -43,6 +43,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('test');
 	}
-
+	public function addBranche()
+	{
+		echo "Branche Function!!";
+	}
 	 
 }
