@@ -39,5 +39,10 @@ class Welcome extends CI_Controller {
 		echo $body;
 	}
 
+	public function noke()
+	{
+		$this->load->view('test');
+	}
+
 	 
 }
