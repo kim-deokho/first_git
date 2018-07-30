@@ -43,9 +43,12 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('test');
 	}
+
 	public function master()
 	{
 		echo "Master Function!!";
+
+		echo "Branche Function!!";
 	}
 	 
 }
