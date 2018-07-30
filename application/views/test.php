@@ -1,4 +1,4 @@
 <?
 echo "Test View";
 
-echo "Branche Develop!!"
+print "Branche Develop!!"
